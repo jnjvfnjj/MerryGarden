@@ -1,0 +1,41 @@
+{% extends "include/homepage.html" %}
+{% load static %}
+{% block content%}
+    <!-- Header Banner -->
+    <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="4" data-background="{% static 'img/merrigarden/banner/1.jpg' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-left caption mt-90">
+                    <h5><a href="news.html">Новости</a> / Новость 1</h5>
+                    <h1>Новость 1</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Post -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"> 
+                    <img src="{% static 'img/merrigarden/banner/2.jpg' %}" class="mb-30" alt="">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quod nobis possimus facere a vel molestiae cumque earum asperiores nemo. Ipsam itaque vero, eos omnis assumenda facilis a eaque. Omnis quae saepe perspiciatis harum quam similique tempore, velit nostrum dolor sequi vel est odio eveniet.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quod nobis possimus facere a vel molestiae cumque earum asperiores nemo. Ipsam itaque vero, eos omnis assumenda facilis a eaque. Omnis quae saepe perspiciatis harum quam similique tempore, velit nostrum dolor sequi vel est odio eveniet.</p>
+                    <blockquote>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quod nobis possimus facere a vel molestiae cumque earum asperiores nemo. Ipsam itaque vero, eos omnis assumenda facilis a eaque. Omnis quae saepe perspiciatis harum quam similique tempore, velit nostrum dolor sequi vel est odio eveniet.</p>
+                    </blockquote>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="{% static 'img/merrigarden/news/2.jpg' %}" class="mb-30" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{% static 'img/merrigarden/news/4.jpg' %}" class="mb-30" alt="">
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quod nobis possimus facere a vel molestiae cumque earum asperiores nemo. Ipsam itaque vero, eos omnis assumenda facilis a eaque. Omnis quae saepe perspiciatis harum quam similique tempore, velit nostrum dolor sequi vel est odio eveniet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+{% endblock %}
